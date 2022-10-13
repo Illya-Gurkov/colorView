@@ -29,6 +29,6 @@ struct Views: View {
 
 struct Views_Previews: PreviewProvider {
     static var previews: some View {
-        ViewColor(colorRed: 10, colorGreen: 10, colorBlue: 10)
+        Views(colorRed: 10, colorGreen: 10, colorBlue: 10)
     }
 }
